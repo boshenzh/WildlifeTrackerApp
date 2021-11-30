@@ -45,26 +45,9 @@
 		CE6FFA3227264DD000FDA3FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6FFA3127264DD000FDA3FC /* ContentView.swift */; };
 		CE6FFA3427264E5700FDA3FC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6FFA3327264E5700FDA3FC /* LoginView.swift */; };
 		CE6FFA36272650CE00FDA3FC /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6FFA35272650CE00FDA3FC /* ResetPassword.swift */; };
-		CE6FFA3D2731FEF600FDA3FC /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6FFA3C2731FEF600FDA3FC /* WidgetKit.framework */; };
-		CE6FFA3F2731FEF600FDA3FC /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6FFA3E2731FEF600FDA3FC /* SwiftUI.framework */; };
-		CE6FFA422731FEF600FDA3FC /* TrackDiseasesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6FFA412731FEF600FDA3FC /* TrackDiseasesWidget.swift */; };
-		CE6FFA452731FEFB00FDA3FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6FFA442731FEFB00FDA3FC /* Assets.xcassets */; };
-		CE6FFA472731FEFB00FDA3FC /* TrackDiseasesWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = CE6FFA432731FEF600FDA3FC /* TrackDiseasesWidget.intentdefinition */; };
-		CE6FFA482731FEFB00FDA3FC /* TrackDiseasesWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = CE6FFA432731FEF600FDA3FC /* TrackDiseasesWidget.intentdefinition */; };
-		CE6FFA4B2731FEFB00FDA3FC /* TrackDiseasesWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CE6FFA3B2731FEF600FDA3FC /* TrackDiseasesWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CE6FFA522738844F00FDA3FC /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6FFA512738844F00FDA3FC /* Map.swift */; };
 		CE6FFA5827389E8000FDA3FC /* MapViewAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6FFA5727389E8000FDA3FC /* MapViewAll.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CE6FFA492731FEFB00FDA3FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2AB2265325DEBDCF004F8350 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE6FFA3A2731FEF600FDA3FC;
-			remoteInfo = TrackDiseasesWidgetExtension;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		CE6FFA4F2731FEFB00FDA3FC /* Embed App Extensions */ = {
@@ -73,7 +56,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				CE6FFA4B2731FEFB00FDA3FC /* TrackDiseasesWidgetExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,13 +104,8 @@
 		CE6FFA3127264DD000FDA3FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE6FFA3327264E5700FDA3FC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		CE6FFA35272650CE00FDA3FC /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
-		CE6FFA3B2731FEF600FDA3FC /* TrackDiseasesWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TrackDiseasesWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6FFA3C2731FEF600FDA3FC /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		CE6FFA3E2731FEF600FDA3FC /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		CE6FFA412731FEF600FDA3FC /* TrackDiseasesWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDiseasesWidget.swift; sourceTree = "<group>"; };
-		CE6FFA432731FEF600FDA3FC /* TrackDiseasesWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = TrackDiseasesWidget.intentdefinition; sourceTree = "<group>"; };
-		CE6FFA442731FEFB00FDA3FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE6FFA462731FEFB00FDA3FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6FFA512738844F00FDA3FC /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		CE6FFA5727389E8000FDA3FC /* MapViewAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewAll.swift; sourceTree = "<group>"; };
 		E61EEB84C30CB679F4417222 /* Pods-TrackDiseases.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackDiseases.debug.xcconfig"; path = "Target Support Files/Pods-TrackDiseases/Pods-TrackDiseases.debug.xcconfig"; sourceTree = "<group>"; };
@@ -140,15 +117,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				237AFFDADC811A9274EBCC2D /* libPods-TrackDiseases.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE6FFA382731FEF600FDA3FC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE6FFA3F2731FEF600FDA3FC /* SwiftUI.framework in Frameworks */,
-				CE6FFA3D2731FEF600FDA3FC /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				2AB2265D25DEBDCF004F8350 /* AppTrackWildlifeDiseases */,
-				CE6FFA402731FEF600FDA3FC /* TrackDiseasesWidget */,
 				2AB2265C25DEBDCF004F8350 /* Products */,
 				1657961D2F02AE819D0263FD /* Pods */,
 				2B555D2556D02A2241B79BA1 /* Frameworks */,
@@ -190,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				2AB2265B25DEBDCF004F8350 /* TrackDiseases.app */,
-				CE6FFA3B2731FEF600FDA3FC /* TrackDiseasesWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -321,17 +287,6 @@
 			name = "Startup Views";
 			sourceTree = "<group>";
 		};
-		CE6FFA402731FEF600FDA3FC /* TrackDiseasesWidget */ = {
-			isa = PBXGroup;
-			children = (
-				CE6FFA412731FEF600FDA3FC /* TrackDiseasesWidget.swift */,
-				CE6FFA432731FEF600FDA3FC /* TrackDiseasesWidget.intentdefinition */,
-				CE6FFA442731FEFB00FDA3FC /* Assets.xcassets */,
-				CE6FFA462731FEFB00FDA3FC /* Info.plist */,
-			);
-			path = TrackDiseasesWidget;
-			sourceTree = "<group>";
-		};
 		CE6FFA502738843F00FDA3FC /* Map */ = {
 			isa = PBXGroup;
 			children = (
@@ -357,29 +312,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				CE6FFA4A2731FEFB00FDA3FC /* PBXTargetDependency */,
 			);
 			name = TrackDiseases;
 			productName = AppTrackWildlifeDiseases;
 			productReference = 2AB2265B25DEBDCF004F8350 /* TrackDiseases.app */;
 			productType = "com.apple.product-type.application";
-		};
-		CE6FFA3A2731FEF600FDA3FC /* TrackDiseasesWidgetExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE6FFA4C2731FEFB00FDA3FC /* Build configuration list for PBXNativeTarget "TrackDiseasesWidgetExtension" */;
-			buildPhases = (
-				CE6FFA372731FEF600FDA3FC /* Sources */,
-				CE6FFA382731FEF600FDA3FC /* Frameworks */,
-				CE6FFA392731FEF600FDA3FC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TrackDiseasesWidgetExtension;
-			productName = TrackDiseasesWidgetExtension;
-			productReference = CE6FFA3B2731FEF600FDA3FC /* TrackDiseasesWidgetExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -393,9 +330,6 @@
 				TargetAttributes = {
 					2AB2265A25DEBDCF004F8350 = {
 						CreatedOnToolsVersion = 12.4;
-					};
-					CE6FFA3A2731FEF600FDA3FC = {
-						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
@@ -413,7 +347,6 @@
 			projectRoot = "";
 			targets = (
 				2AB2265A25DEBDCF004F8350 /* TrackDiseases */,
-				CE6FFA3A2731FEF600FDA3FC /* TrackDiseasesWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -430,14 +363,6 @@
 				2AB2266825DEBDD2004F8350 /* Assets.xcassets in Resources */,
 				2A1BD14125F7EA3600A2E8ED /* GoogleService-Info.plist in Resources */,
 				2A4E0D59260DC8EF00279F20 /* project.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE6FFA392731FEF600FDA3FC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE6FFA452731FEFB00FDA3FC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,7 +417,6 @@
 			files = (
 				2AB2266625DEBDCF004F8350 /* AppTrackWildlifeDiseases.xcdatamodeld in Sources */,
 				CE6FFA5827389E8000FDA3FC /* MapViewAll.swift in Sources */,
-				CE6FFA482731FEFB00FDA3FC /* TrackDiseasesWidget.intentdefinition in Sources */,
 				2AB2271225E6AC1D004F8350 /* History.swift in Sources */,
 				2AB2269425E4E31D004F8350 /* MangeDescription.swift in Sources */,
 				2AB2269E25E551A3004F8350 /* UserData.swift in Sources */,
@@ -526,24 +450,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE6FFA372731FEF600FDA3FC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE6FFA422731FEF600FDA3FC /* TrackDiseasesWidget.swift in Sources */,
-				CE6FFA472731FEFB00FDA3FC /* TrackDiseasesWidget.intentdefinition in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CE6FFA4A2731FEFB00FDA3FC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CE6FFA3A2731FEF600FDA3FC /* TrackDiseasesWidgetExtension */;
-			targetProxy = CE6FFA492731FEFB00FDA3FC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2AB2267025DEBDD2004F8350 /* Debug */ = {
@@ -666,7 +573,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E61EEB84C30CB679F4417222 /* Pods-TrackDiseases.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -690,7 +596,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9338ED3C8DBCAF2441A0B4C1 /* Pods-TrackDiseases.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -705,50 +610,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.EscobarLab.TrackWildLifeDiseases;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		CE6FFA4D2731FEFB00FDA3FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4A32D3T84U;
-				INFOPLIST_FILE = TrackDiseasesWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.EscobarLab.TrackWildLifeDiseases.TrackDiseasesWidget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CE6FFA4E2731FEFB00FDA3FC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4A32D3T84U;
-				INFOPLIST_FILE = TrackDiseasesWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.EscobarLab.TrackWildLifeDiseases.TrackDiseasesWidget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -771,15 +632,6 @@
 			buildConfigurations = (
 				2AB2267325DEBDD2004F8350 /* Debug */,
 				2AB2267425DEBDD2004F8350 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE6FFA4C2731FEFB00FDA3FC /* Build configuration list for PBXNativeTarget "TrackDiseasesWidgetExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE6FFA4D2731FEFB00FDA3FC /* Debug */,
-				CE6FFA4E2731FEFB00FDA3FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
